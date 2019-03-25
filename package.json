@@ -1,0 +1,27 @@
+{
+  "name": "try-express-webpack-vue-ssr-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "node server",
+    "build": "webpack --config=webpack.server.config.js && webpack --config=webpack.server.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "vue": "^2.6.10",
+    "vue-server-renderer": "^2.6.10"
+  }
+}
