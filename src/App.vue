@@ -9,7 +9,7 @@
   export default {
     data () {
       return {
-        text: 'Hello express + webpack + babel + Vue + SSR!!'
+        text: 'Hello express + webpack + Vue + SSR!!'
       }
     }
   }
